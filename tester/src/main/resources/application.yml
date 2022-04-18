@@ -8,7 +8,7 @@ spring:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
     username: cpdm
-    password: 
+    password:
 
   jpa:
     defer-datasource-initialization: true
@@ -26,5 +26,5 @@ logging:
 
 jwt:
   header: Authorization
-  secret: Y2hvcHBhLWRvbnQtYml0ZS1tZS1zcHJpbmctYm9vdC1qd3QtdHV0b3JpYWwtc2VjcmV0LWNob3BwYS1kb250LWJpdGUtbWUtc3ByaW5nLWJvb3Qtand0LXR1dG9yaWFsLXNlY3JldAo=
+  secret: Y2hvcHBhLWRvbnQtYml0ZS1tZS1zcHJpbmctYm9vdC1qd3QtdGVzdC1zZWNyZXQta2V5LWNob3BwYS1kb250LWJpdGUtbWUtc3ByaW5nLWJvb3Qtand0LXRlc3Qtc2VjcmV0LWtleQo=
   token-validity-in-seconds: 86400
